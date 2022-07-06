@@ -1,0 +1,89 @@
+:root {
+  --main-color: rgb(211, 206, 223);
+  --secondary-color: rgb(116, 141, 166);
+  --light-pink-color: rgb(242, 215, 217);
+  --light-gray-main-color: rgb(156, 180, 204);
+  --for-h-color: rgb(82, 99, 117);
+}
+.container {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: var(--for-h-color);
+}
+.portfolio-wrapper {
+  max-width: 80%;
+  margin: auto;
+  padding: 35px;
+  border: 1px solid rgb(125, 123, 123);
+  border-radius: 7px;
+  background-color: var(--light-pink-color);
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 45px;
+  margin: 10px 0px 10px 0px;
+  color: rgb(56, 56, 66);
+}
+h3 {
+  font-size: 21px;
+  margin: 20px;
+  line-height: 0px;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 47px;
+}
+.pages span a {
+  text-decoration: none;
+  text-align: center;
+  color: var(--for-h-color);
+  font-weight: bolder;
+  border: 1px solid var(--light-gray-main-color);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: var(--main-color);
+  box-shadow: 5px 5px 10px rgba(91, 94, 94, 0.573);
+}
+.pages span a:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  color: white;
+}
+
+.about-me {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.h1-contact {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.h2-contact {
+  text-align: center;
+  font-size: 21px;
+  font-family: "Raleway", sans-serif;
+}
+.back-home-page a {
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--for-h-color);
+  text-align: center;
+}
+.back-home-page a:hover {
+  color: var(--for-h-color);
+  text-decoration: underline;
+}
+img {
+  padding-top: 57px;
+}
