@@ -22,7 +22,6 @@ body {
   border: 1px solid rgb(125, 123, 123);
   border-radius: 7px;
   background-color: var(--light-pink-color);
-  white-space: pre-wrap;
 }
 h1 {
   font-size: 32px;
@@ -32,11 +31,13 @@ h2 {
   font-size: 45px;
   margin: 10px 0px 10px 0px;
   color: rgb(56, 56, 66);
+  white-space: pre-wrap;
 }
 h3 {
   font-size: 21px;
   margin: 20px;
   line-height: 0px;
+  display: inline;
 }
 .pages {
   display: flex;
@@ -55,6 +56,7 @@ h3 {
   margin: 20px;
   background-color: var(--main-color);
   box-shadow: 5px 5px 10px rgba(91, 94, 94, 0.573);
+  white-space: pre;
 }
 .pages span a:hover {
   background-color: var(--secondary-color);
