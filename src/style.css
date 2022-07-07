@@ -22,6 +22,7 @@ body {
   border: 1px solid rgb(125, 123, 123);
   border-radius: 7px;
   background-color: var(--light-pink-color);
+  white-space: pre-wrap;
 }
 h1 {
   font-size: 32px;
