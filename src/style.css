@@ -23,6 +23,14 @@ body {
   border-radius: 7px;
   background-color: var(--light-pink-color);
 }
+.home-page a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.home-page a:hover {
+  color: rgb(136, 108, 228);
+}
 h1 {
   font-size: 32px;
   margin-bottom: 10px;
@@ -117,4 +125,17 @@ h3 {
 }
 img {
   padding-top: 57px;
+}
+.contact-me {
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.contact-me a {
+  text-decoration: none;
+  color: var(--for-h-color);
+}
+.contact-me a:hover {
+  color: rgb(136, 108, 228);
 }
