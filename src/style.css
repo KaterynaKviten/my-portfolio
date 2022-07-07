@@ -39,6 +39,34 @@ h3 {
   line-height: 0px;
   display: inline;
 }
+.text-about-me {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+  margin: 0 80px 0 80px;
+}
+.about-me-1 {
+  border: 1px solid var(--light-gray-main-color);
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+  margin: 20px;
+  padding: 40px;
+  width: 50%;
+  background-color: var(--light-pink-color);
+  font-weight: bolder;
+}
+.about-me-2 {
+  border: 1px solid var(--light-gray-main-color);
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+  margin: 20px;
+  padding: 40px;
+  width: 50%;
+  background-color: var(--light-pink-color);
+  font-weight: bolder;
+}
 .pages {
   display: flex;
   justify-content: center;
