@@ -139,23 +139,3 @@ img {
 .contact-me a:hover {
   color: rgb(136, 108, 228);
 }
-
-/* .weather-proj-img {
-  border: 1px solid var(--light-gray-main-color);
-  border-radius: 5px;
-  font-size: 20px;
-  color: black;
-  margin: 20px;
-  width: 50%;
-  background-color: var(--light-gray-main-color);
-  font-weight: bolder;
-}
-.weather-proj-body {
-  text-align: center;
-  font-size: 20px;
-  color: black;
-  margin: 10px;
-  padding: 20px;
-  width: 50%;
-  font-weight: bolder;
-} */
