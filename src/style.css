@@ -79,6 +79,7 @@ h3 {
   justify-content: center;
   align-items: center;
   padding-top: 47px;
+  padding-bottom: 30px;
 }
 .pages span a {
   text-decoration: none;
@@ -127,7 +128,7 @@ img {
 }
 .contact-me {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
   text-decoration: none;
 }
@@ -138,25 +139,23 @@ img {
 .contact-me a:hover {
   color: rgb(136, 108, 228);
 }
-.my-projects {
-  display: flex;
-  justify-content: space-around;
-}
-.weather-proj-img {
+
+/* .weather-proj-img {
   border: 1px solid var(--light-gray-main-color);
   border-radius: 5px;
   font-size: 20px;
   color: black;
   margin: 20px;
   width: 50%;
-  background-color: var(--light-pink-color);
+  background-color: var(--light-gray-main-color);
   font-weight: bolder;
 }
 .weather-proj-body {
+  text-align: center;
   font-size: 20px;
   color: black;
-  margin: 20px;
-  padding: 40px;
+  margin: 10px;
+  padding: 20px;
   width: 50%;
   font-weight: bolder;
-}
+} */
