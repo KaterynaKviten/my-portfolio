@@ -4,6 +4,7 @@
   --light-pink-color: rgb(242, 215, 217);
   --light-gray-main-color: rgb(156, 180, 204);
   --for-h-color: rgb(82, 99, 117);
+  --box-shadow: 5px 5px 10px rgba(91, 94, 94, 0.573);
 }
 .container {
   text-align: center;
@@ -12,7 +13,8 @@
 body {
   font-family: "Raleway", sans-serif;
   color: var(--for-h-color);
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .home-page a {
@@ -87,6 +89,7 @@ h3 {
 }
 img {
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .contact-me {
   font-size: 30px;
