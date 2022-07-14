@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
-    <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,10 +17,14 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav
+        class="navbar navbar-expand-lg font-serif fw-bold sticky-top"
+        style="background-color: #aed7f4"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Kateryna</a>
           <button
@@ -41,7 +44,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="about.html">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html#contact">Contact Me</a>
@@ -51,7 +54,7 @@
         </div>
       </nav>
       <h1>Hi, I am</h1>
-      <h2>Kateryna Shiurkova</h2>
+      <h2>🌺Kateryna Shiurkova🌺</h2>
       <h3>Front-end developer, based in Kyiv, Ukraine</h3>
       <div class="pages">
         <span> <a href="about.html#contact">Contact Me</a></span>
@@ -67,13 +70,6 @@
               width="100%"
               height="auto"
             />
-            <div class="coded-by-link">
-              <a
-                class="font-monospace text-decoration-none text-dark text-opacity-75 fs-6 fw-lighter"
-                href="https://github.com/KaterynaKviten/vanilla-weather-app"
-                >Open-source code by Kateryna Shiurkova</a
-              >
-            </div>
           </div>
           <div class="col-6 pt-4">
             <h3 class="fw-semibold">Weather App🌦️</h3>
@@ -85,9 +81,7 @@
             </p>
             <a
               href="https://heroic-pudding-4736fa.netlify.app/"
-              class="btn btn-primary btn-lg"
-              tabindex="-1"
-              role="button"
+              class="btn blue-button"
               >Launch Weather App</a
             >
           </div>
@@ -104,7 +98,7 @@
             </p>
             <a
               href="https://heroic-pudding-4736fa.netlify.app/"
-              class="btn btn-primary btn-lg"
+              class="btn blue-button"
               tabindex="-1"
               role="button"
               >Download Weather Icons</a
@@ -134,13 +128,20 @@
             </p>
             <a
               href="https://heroic-pudding-4736fa.netlify.app/"
-              class="btn btn-primary btn-lg"
+              class="btn blue-button"
               tabindex="-1"
               role="button"
               >Donate</a
             >
           </div>
         </div>
+      </div>
+      <div class="coded-by-link">
+        <a
+          class="font-monospace text-decoration-none text-dark text-opacity-75 fs-6 fw-lighter"
+          href="https://github.com/KaterynaKviten/vanilla-weather-app"
+          >Open-source code by Kateryna Shiurkova</a
+        >
       </div>
     </div>
 
