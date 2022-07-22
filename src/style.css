@@ -10,6 +10,21 @@
   .container {
     text-align: center;
   }
+  .card img {
+    display: none;
+  }
+  .cont img {
+    display: none;
+  }
+  h3 p {
+    font-size: 22px;
+  }
+  .contact-me #contact {
+    font-size: 22px;
+  }
+  .contact-me a {
+    font-size: 22px;
+  }
 }
 .container {
   text-align: center;
