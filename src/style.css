@@ -6,6 +6,11 @@
   --for-h-color: rgb(82, 99, 117);
   --box-shadow: 5px 5px 10px rgba(91, 94, 94, 0.573);
 }
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+}
 .container {
   text-align: center;
   font-family: "Raleway", sans-serif;
