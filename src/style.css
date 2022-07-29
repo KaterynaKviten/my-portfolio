@@ -36,7 +36,9 @@ body {
   width: 100%;
   height: auto;
 }
-
+.hero {
+  padding: 160px 0;
+}
 .home-page a {
   text-decoration: none;
   font-size: 20px;
@@ -106,10 +108,15 @@ h3 {
   color: var(--for-h-color);
   text-decoration: underline;
 }
-img {
+.logo {
+  margin: auto;
+  position: relative;
+  top: -3px;
+}
+/* img {
   padding-top: 10px;
   padding-bottom: 10px;
-}
+} */
 .contact-me {
   font-size: 30px;
   padding-bottom: 30px;
