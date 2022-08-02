@@ -121,10 +121,9 @@ h3 {
   position: relative;
   top: -3px;
 }
-/* img {
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
+.my-works {
+  padding-top: 30px;
+}
 .contact-me {
   font-size: 30px;
   padding-bottom: 30px;
