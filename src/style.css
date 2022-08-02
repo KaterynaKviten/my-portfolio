@@ -10,12 +10,12 @@
   .container {
     text-align: center;
   }
-  .card img {
+  /* .card img {
     display: none;
-  }
-  .cont img {
+  } */
+  /* .cont img {
     display: none;
-  }
+  } */
   h3 p {
     font-size: 22px;
   }
@@ -36,7 +36,7 @@ body {
   height: auto;
 }
 .hero {
-  padding: 160px 0;
+  padding: 30px 0;
 }
 .about-me {
   padding-top: 50px;
