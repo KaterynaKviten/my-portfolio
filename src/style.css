@@ -41,9 +41,7 @@ body {
   width: 100%;
   height: auto;
 }
-.hero {
-  padding: 30px 0;
-}
+
 .about-me {
   padding-top: 50px;
 }
@@ -88,7 +86,7 @@ h3 {
   justify-content: center;
   align-items: center;
   padding-top: 47px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .pages span a {
   text-decoration: none;
@@ -154,4 +152,24 @@ h3 {
   --bs-btn-bg: var(--main-color);
   --bs-btn-hover-color: var(--bs-white);
   --bs-btn-hover-bg: var(--secondary-color);
+}
+footer {
+  margin: 30px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+footer .social-media-links a {
+  margin: 0 20px;
+  color: var(--for-h-color);
+  font-size: 26px;
+}
+
+footer .social-media-links a:hover {
+  color: rgb(136, 108, 228);
 }
