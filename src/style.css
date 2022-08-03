@@ -17,10 +17,10 @@
   h3 p {
     font-size: 22px;
   }
-  .contact-me #contact {
+  contact-page #contact {
     font-size: 22px;
   }
-  .contact-me a {
+  .contact-page a {
     font-size: 22px;
   }
   .about-page h1 {
@@ -135,17 +135,18 @@ h3 {
 .my-works {
   padding-top: 30px;
 }
-.contact-me {
+.contact-page {
   font-size: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   text-decoration: none;
+  font-weight: bold;
 }
-.contact-me a {
+.contact-page a {
   text-decoration: none;
   color: var(--for-h-color);
 }
-.contact-me a:hover {
+.contact-page a:hover {
   color: rgb(136, 108, 228);
 }
 .blue-button {
