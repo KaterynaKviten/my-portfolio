@@ -34,7 +34,23 @@
 }
 .container {
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+.container-absolute {
+  padding-top: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 body {
   color: var(--for-h-color);
@@ -45,12 +61,7 @@ body {
 .about-me {
   padding-top: 50px;
 }
-.invite {
-  font-size: 50px;
-}
-.iam {
-  font-size: 24px;
-}
+
 .home-page a {
   text-decoration: none;
   font-size: 20px;
@@ -60,20 +71,21 @@ body {
   color: rgb(136, 108, 228);
 }
 h1 {
-  font-size: 32px;
+  font-size: 37px;
   margin-bottom: 10px;
   padding-top: 10px;
 }
-h2 {
-  font-size: 45px;
-  margin: 10px 0px 10px 0px;
+h2,
+.invite {
+  font-size: 40px;
+  margin: 31px 0px 10px 0px;
   color: rgb(56, 56, 66);
   white-space: pre-wrap;
 }
-h3 {
-  font-size: 21px;
+h3,
+.iam {
+  font-size: 31px;
   margin: 20px;
-  line-height: 0px;
   display: inline;
 }
 .about-page {
@@ -108,12 +120,12 @@ h3 {
 
 .h1-contact {
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 .h2-contact {
   text-align: center;
   font-size: 21px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 .back-home-page a {
   text-decoration: none;
@@ -133,19 +145,28 @@ h3 {
 .my-works {
   padding-top: 30px;
 }
+.description-proj {
+  font-size: 22px;
+}
+.creted-with {
+  font-family: monospace;
+  font-size: 14px;
+}
 .contact-page {
   font-size: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   text-decoration: none;
-  font-weight: bold;
+  width: 500px;
+  border-radius: 20px;
+  background-color: rgb(255, 250, 250, 0.4);
 }
 .contact-page a {
   text-decoration: none;
   color: var(--for-h-color);
 }
 .contact-page a:hover {
-  color: rgb(136, 108, 228);
+  color: #58b1af;
 }
 .blue-button {
   --bs-btn-color: var(--for-h-color);
@@ -158,18 +179,20 @@ footer {
 }
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: rgb(56, 56, 66);
   font-size: 18px;
+  transition: 0.2s ease;
 }
 .email-link:hover {
-  text-decoration: underline;
+  color: #58b1af;
 }
 footer .social-media-links a {
   margin: 0 20px;
   color: var(--for-h-color);
   font-size: 26px;
+  transition: 0.2s ease;
 }
 
 footer .social-media-links a:hover {
-  color: rgb(136, 108, 228);
+  color: #58b1af;
 }
