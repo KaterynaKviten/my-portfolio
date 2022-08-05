@@ -196,3 +196,11 @@ footer .social-media-links a {
 footer .social-media-links a:hover {
   color: #58b1af;
 }
+.link-on-adobe {
+  text-decoration: none;
+  color: rgb(56, 56, 66);
+  font-weight: bold;
+}
+.link-on-adobe:hover {
+  color: #58b1af;
+}
