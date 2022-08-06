@@ -196,11 +196,13 @@ footer .social-media-links a {
 footer .social-media-links a:hover {
   color: #58b1af;
 }
-.link-on-adobe {
+.link-on-adobe,
+.shecodes-link {
   text-decoration: none;
   color: rgb(56, 56, 66);
   font-weight: bold;
 }
-.link-on-adobe:hover {
+.link-on-adobe:hover,
+.shecodes-link:hover {
   color: #58b1af;
 }
